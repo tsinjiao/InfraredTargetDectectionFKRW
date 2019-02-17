@@ -52,8 +52,7 @@ for i = 1 : length(p_idx_r)
     end
     mask(s1x,s1y) = 2; 
     prob_res = mean(prob_t(mask==1));
-    prob_res = prob_res/(1-prob_res);
-%     prob_res = prob_res/mean(prob_t(mask~=1));
+    prob_res = prob_res/mean(prob_t(mask~=1));
     mask(s1x,s1y) = 1; 
     iten_res = local(mask,img);
     [idx_r,idx_c] = find(mask==1);
