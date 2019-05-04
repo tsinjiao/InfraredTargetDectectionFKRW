@@ -1,6 +1,6 @@
 # InfraredTargetDectectionFKRW
 
-The demo for the paper "Infrared Small Target Detection Based on Facet Kernel and Random Walker" to be published on TGRS.
+The demo for the paper "Infrared Small Target Detection Based on Facet Kernel and Random Walker" published on TGRS.
 
 Note that the code is based on the "Graph Analysis Toolbox"" of L. Grady.
 
